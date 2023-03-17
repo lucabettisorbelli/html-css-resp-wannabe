@@ -139,5 +139,15 @@ img {
 /* responsive tablet, desktop first */
 
 @media screen and (min-width: 480px) and (max-width:768px) {
-
+    .col {
+        /* prove */
+        transition: 0.5s;
+        max-width: 30%;
+    }
+    .container h2{
+        
+        transition: 0.2s;
+        transform: translate(-18%);
+        
+    }
 }
