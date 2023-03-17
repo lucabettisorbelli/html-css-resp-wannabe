@@ -132,21 +132,20 @@ img {
 
 /* responsive mobile, desktop first */
 
-@media screen and (min-width: 480px) {
-    
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        width: 100%;
+    }
 }
 
 /* responsive tablet, desktop first */
 
 @media screen and (min-width: 480px) and (max-width:768px) {
-    /* .col {
-        transition: 0.s;
-        max-width: 30%;
-    }
-    .container h2{
-        transition: 0.1s;
-        transform: translate(-18%);
-    } */
+
     .container {
         width: 100%;
     }
