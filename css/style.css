@@ -144,7 +144,7 @@ img {
 
 /* responsive tablet, desktop first */
 
-@media screen and (min-width: 480px) and (max-width:768px) {
+@media screen and (min-width: 480px) and (max-width:1170px) {
 
     .container {
         width: 100%;
